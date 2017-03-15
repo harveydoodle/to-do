@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="journalcss.css">
+    <title>Harvey's Secret Diary</title>
+</head>
+
+<body>
+    <nav id="nav-bar-bg" class="navbar navbar-default">
+      
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input id ="searchtag" type="text" class="form-control" placeholder="Start sniffin'!">
+            </div>
+            <button id ="searchbtn" type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+        </div>
+      
+    </nav>
+
+
+    <div class="container-fluid header"> 
+        <div class="banner">
+            <a href="https://www.instagram.com/harveydroolmonster/" target="_blank">
+            <img class="harveysface"/>
+            </a>
+            <h1 class="h1-align">Make Everyday PAWsome!</h1>
+        </div>
+
+        <row class="col-md-12 col-sm-12 col-xs-12 entrybox">
+            <textarea placeholder="Title..." id="textarea-align-title" class="form-control" rows="3"></textarea>
+            <textarea placeholder="Pawsitive Thoughts Only..." id="textarea-align-content" class="form-control" rows="3"></textarea>
+            <textarea placeholder="Pawthor..." id="textarea-align-author" class="form-control" rows="3"></textarea>
+            <textarea placeholder="Tags..." id="textarea-align-tag" class="form-control" rows="3"></textarea>
+            <input id="clickme" class="btn btn-default submitbutton" type="submit">
+        </row>
+
+        <row class="col-md-12 col-sm-12 col-xs-12 journalbox">
+            <ul id="filteredEntries">
+            </ul>
+            <ul id="entries">
+            </ul>
+        </row>
+    </div>
+	<!--<script type="text/javascript" src="js/vendor/jquery-1.12.2.js"></script>-->
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+	<script type="text/javascript" src="journaljs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+.container-fluid {
+    margin:0 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(250, 250, 250, 0.9);
+}
+body {
+    background-image: url('http://piq.codeus.net/static/media/userpics/piq_331714_400x400.png');
+    background-attachment: fixed;
+}
+.banner {
+    text-align: center;
+    width: 100%;
+}
+.h1-align{
+    padding: 2% 0%;
+    overflow-wrap: break-word;
+    font-size: 56px;
+    text-shadow: 2px 2px 4px #000000;
+    color: black;
+}
+h2.title {
+    color: grey;
+}
+h2.title-search {
+    color: orange;
+}
+.entrybox {
+    padding: 5% 2%;
+    border: 2px solid black;
+}
+.harveysface {
+    width: 450px;
+    border-radius: 100%;
+    border: none;
+    display: inline-block;
+    height: 450px;
+    background-image: url(https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/e35/14736402_702986609848940_536742290614386688_n.jpg?ig_cache_key=MTM2NDE3NzU3ODE5ODE5NzMzOQ%3D%3D.2);
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+}
+img:hover {
+    background-image: url(https://scontent-yyz1-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/14145569_161597050947615_635271431_n.jpg);
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
+}
+#textarea-align-title {
+    max-width: 100%;
+    margin-bottom: 2%;
+    height: 35px;
+    border: 1px solid black;
+}
+#textarea-align-content {
+    max-width: 100%;
+    margin-bottom: 2%;
+    height: 150px;
+    border: 1px solid black;
+}
+#textarea-align-author {
+    max-width: 100%;
+    margin-bottom: 2%;
+    height: 35px;
+    border: 1px solid black;
+}
+#textarea-align-tag {
+    max-width: 100%;
+    margin-bottom: 2%;
+    height: 35px;
+    border: 1px solid black;
+}
+.submitbutton {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+#nav-bar-bg {
+    background-color: rgba(0,0,0, 0);
+    border: none;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+}
+.journalbox {
+    margin-top: 2%;
+    padding: 2% 0%;
+    border: 2px solid black;
+}
+.author{
+    margin-bottom: 200%;
+}
+#entries {
+    margin-bottom: 50px;
+    padding: 0 3%;
+}
+#filteredEntries {
+    margin-bottom: 50px;
+    padding: 0 3%;
+}
+li.bg {
+    padding: 2%;
+    list-style-type: none;
+}
