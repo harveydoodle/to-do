@@ -1,0 +1,17 @@
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.ul-links {
+  text-align: center;
+  margin-top: 1%;
+}
